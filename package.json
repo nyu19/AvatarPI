@@ -1,0 +1,16 @@
+{
+  "name": "avatarpi",
+  "version": "1.0.0",
+  "description": "NodeJS API which serves user profile avatars",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "Nakul Upasani",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.10.2",
+    "express": "^4.18.2",
+    "tinycolor2": "^1.4.2"
+  }
+}
