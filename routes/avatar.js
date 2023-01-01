@@ -27,7 +27,7 @@ validateData = (data) => {
     if(data.fontstyle)
         validData.fontstyle = data.fontstyle
     if(data.size)
-        validData.size = data.size  //! Error occurs when size is explicit
+        validData.size = parseInt(data.size)  
     if(data.fontsize)
         validData.fontsize = data.fontsize
     if(data.char)
